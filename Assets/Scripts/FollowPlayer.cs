@@ -12,6 +12,6 @@ public class FollowPlayer : MonoBehaviour
     void Update()
     {
         //transform.localPosition = player.localPosition + offset;
-        transform.LookAt(player);
+        transform.LookAt(player, Vector3.up);
     }
 }
